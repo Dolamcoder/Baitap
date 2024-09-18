@@ -1,0 +1,15 @@
+package CANMOIDOITHU;
+import java.util.Scanner;
+public class bt3 {
+	public static void main(String[] args) {
+		Scanner a=new Scanner(System.in);
+        double d;
+        double r;
+        System.out.println("chieu dai:=");
+        d=a.nextDouble();
+        System.out.println("chieu rong:=");
+        r=a.nextDouble();
+        System.out.println("dien tich:="+ r*d);
+        System.out.println("chu vi:="+ 2*(r+d));
+	}
+}
